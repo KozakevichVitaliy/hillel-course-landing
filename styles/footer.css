@@ -1,0 +1,23 @@
+.footer {
+   height: 151px;
+   background-color: #34547A;
+}
+
+.footer .text-content {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color:#fff;
+}
+
+.text-content__name {
+   font-size: 21px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+.text-content__rights {
+   font-size: 13px;
+   font-weight: 400;
+}

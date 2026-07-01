@@ -4,7 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,8 +26,8 @@
         </header>
 
         <main class="main">
-            <div class="container">
-                <section class="first-screen">
+            <section class="first-screen">
+                <div class="container">
                     <h1 class="first-screen__header">Design and Layout</h1>
                     <p class="first-screen__text">
                         Lorem Ipsum is a placeholder text commonly 
@@ -35,20 +38,54 @@
                     <div>
                         <button class="first-screen__button">write to me</button>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
             <section class="second-screen">
-                <h2 class="second-screen__header">About Me</h2>
-                <p class="second-screen__text">Lorem Ipsum is a placeholder text 
-                    commonly used in printing and web design. 
-                    Lorem Ipsum has been the standard dummy text for 
-                    Latin scripts since the 16th century.
-                </p>
+                <div class="container">
+                    <h2 class="second-screen__header">About Me</h2>
+                    <p class="second-screen__text">Lorem Ipsum is a placeholder text 
+                        commonly used in printing and web design. 
+                        Lorem Ipsum has been the standard dummy text for 
+                        Latin scripts since the 16th century.
+                    </p>
+                </div>
+            </section>
+            <section class="third-screen">
+                <ul class="projects-list">
+                    <li>
+                        <img src="./images/numbers__item.svg" alt="icon-projects" class="projects-list__item"></li>
+                    <li>
+                        <img src="./images/numbers__item.svg" alt="icon-projects" class="projects-list__item"></li>
+                    <li>
+                        <img src="./images/numbers__item.svg" alt="icon-projects" class="projects-list__item"></li>
+                    <li>
+                        <img src="./images/numbers__item.svg" alt="icon-projects" class="projects-list__item"></li>
+                    <li>
+                        <img src="./images/numbers__item.svg" alt="icon-projects" class="projects-list__item"></li>
+                    <li>
+                        <img src="./images/numbers__item.svg" alt="icon-projects" class="projects-list__item"></li>
+                </ul>
+            </section>
+            <section class="fourth-screen">
+                <div class="container">
+                    <h2 class="fourth-screen__header">How I Work</h2>
+                    <p class="fourth-screen__text">Lorem Ipsum is a placeholder text 
+                        commonly used in printing and web design. 
+                        Lorem Ipsum has been the standard dummy text for 
+                        Latin scripts since the 16th century.
+                    </p>
+                    <div class="fourth-screen__img">
+                        <img src="./images/img-work.jpg" alt="img-work">
+                    </div>
+                </div>
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="container">
-                
+                <div class="text-content">
+                    <span class="text-content__name">Ostap Ivanenko</span>
+                    <span class="text-content__rights">© 2018. All rights reserved.</span>
+                </div>
             </div>
         </footer>
     </div>

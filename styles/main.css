@@ -1,0 +1,108 @@
+.first-screen {
+
+    background-color: #EEEFF1;
+    height: 526px;
+    padding-top: 83px;
+ }
+
+ .first-screen__header {
+    font-weight: 500;
+    font-size: 48px;
+ }
+
+ .first-screen__text {
+    margin-top: 57px;
+    width: 540px;
+    font-weight: 400;
+    line-height: 164%;
+    font-size: 16px;
+    color: #727272;
+}
+
+.first-screen__button {
+    margin-top: 65px;
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second-screen {
+   padding-top: 112px;
+   width: 100%;
+   background-color: #fff;
+}
+
+
+.second-screen__header {
+   text-align: center;
+   font-weight: 500;
+   font-size: 32px;
+}
+
+.second-screen__text {
+   margin: 48px auto 0 auto; 
+   width: 540px;
+   text-align: center;
+   font-weight: 400;
+   font-size: 16px;
+   color: #727272;
+   line-height: 164%;
+}
+
+
+.third-screen {
+   margin-top: 100px;
+   width: 100%;
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #34547A;
+}
+
+.projects-list {
+   display: flex;
+   list-style: none;
+}
+
+.projects-list__item {
+   width: 120px;
+   height: 50px;
+}
+
+.fourth-screen {
+   height: 1004px;
+   padding: 100px 0;
+   background-color: #EEEFF1;
+}
+
+.fourth-screen__header {
+   text-align: center;
+   font-weight: 500;
+   font-size: 32px;
+}
+
+.fourth-screen__text {
+   margin: 48px auto 0 auto; 
+   width: 540px;
+   text-align: center;
+   font-weight: 400;
+   font-size: 16px;
+   color: #727272;
+   line-height: 164%;
+}
+
+.fourth-screen__img {
+   margin-top: 50px;
+}
+
+.fourth-screen__img img {
+   height: 600px;
+   width: 100%;
+}
