@@ -1,6 +1,5 @@
 .first-screen {
-
-    background-color: #EEEFF1;
+    background-color: var(--main-bg-color);
     height: 526px;
     padding-top: 83px;
  }
@@ -8,6 +7,7 @@
  .first-screen__header {
     font-weight: 500;
     font-size: 48px;
+    font-family: var(--main-font-family);
  }
 
  .first-screen__text {
@@ -17,19 +17,21 @@
     line-height: 164%;
     font-size: 16px;
     color: #727272;
+    font-family: var(--main-font-family);
 }
 
 .first-screen__button {
     margin-top: 65px;
     width: 225px;
     height: 65px;
-    background-color: #34547A;
+    background-color: var(--secondary-bg-color);
     text-transform: uppercase;
     font-size: 16px;
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: var(--main-font-family);
 }
 
 .second-screen {
@@ -43,6 +45,7 @@
    text-align: center;
    font-weight: 500;
    font-size: 32px;
+   font-family: var(--main-font-family);
 }
 
 .second-screen__text {
@@ -53,6 +56,7 @@
    font-size: 16px;
    color: #727272;
    line-height: 164%;
+   font-family: var(--main-font-family);
 }
 
 
@@ -63,7 +67,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: #34547A;
+    background-color: var(--secondary-bg-color);
 }
 
 .projects-list {
@@ -86,16 +90,18 @@
    text-align: center;
    font-weight: 500;
    font-size: 32px;
+   font-family: var(--main-font-family);
 }
 
 .fourth-screen__text {
    margin: 48px auto 0 auto; 
    width: 540px;
+   background-color: var(--main-bg-color);
    text-align: center;
    font-weight: 400;
    font-size: 16px;
-   color: #727272;
    line-height: 164%;
+   font-family: var(--main-font-family);
 }
 
 .fourth-screen__img {

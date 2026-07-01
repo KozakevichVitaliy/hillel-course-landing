@@ -1,6 +1,6 @@
 .footer {
    height: 151px;
-   background-color: #34547A;
+    background-color: var(--secondary-bg-color);
 }
 
 .footer .text-content {
@@ -15,9 +15,11 @@
    font-size: 21px;
    font-weight: 500;
    margin-bottom: 10px;
+   font-family: var(--main-font-family);
 }
 
 .text-content__rights {
    font-size: 13px;
    font-weight: 400;
+   font-family: var(--main-font-family);
 }
