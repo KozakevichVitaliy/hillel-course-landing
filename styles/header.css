@@ -18,6 +18,13 @@
     font-family: var(--main-font-family);
  }
 
+ @media (max-width: 500px) {
+   .nav__item  {
+      margin-right: 8px;
+      font-size: 14px;
+   }
+}
+
 .nav__item:first-child a {
     color: #34547A;
 }

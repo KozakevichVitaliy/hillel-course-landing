@@ -17,10 +17,36 @@ a, a:visited {
     text-decoration: none;
 }
 
- .container {
-    padding: 0 400px;
+.container {
+    margin: 0 auto;
     height: 100%;
- }
+    width: 50%;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media (max-width: 990px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
 
 .header--primary {
     font-weight: 500;
@@ -45,6 +71,13 @@ a, a:visited {
     text-align: center;
     font-family: var(--main-font-family);
 }
+
+@media (max-width: 768px) {
+    .text--primary {
+        width: 100%;
+    }
+}
+
 
  
 

@@ -33,10 +33,13 @@
    margin-top: 100px;
    width: 100%;
    height: 250px;
+   background-color: var(--secondary-bg-color);
+}
+
+.third-screen .container {
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: var(--secondary-bg-color);
 }
 
 .projects {
@@ -53,6 +56,27 @@
    height: 100%;
 }
 
+ @media (max-width: 768px) {
+   .project {
+      width: 80px;
+      height: 40px;
+   }
+}
+
+@media (max-width: 500px) {
+    .project {
+      width: 65px;
+      height: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .project {
+      width: 55px;
+      height: 30px;
+    }
+}
+
 .fourth-screen {
    height: 1004px;
    padding: 100px 0;
@@ -63,4 +87,11 @@
    margin-top: 50px;
    height: 600px;
    width: 100%;
+}
+
+@media (max-width: 500px) {
+   .fourth-screen__img {
+      
+      height: 500px;
+   }
 }
